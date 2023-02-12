@@ -1,6 +1,6 @@
 FROM shoothzj/base
 
-ENV MYSQL_HOME /opt/mysql
+ENV MARIADB_HOME /opt/mariadb
 
 RUN apt-get update && \
     apt-get install -y mariadb-client mariadb-server && \
